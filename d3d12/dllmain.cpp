@@ -18,7 +18,7 @@
 #if defined _M_X64 || defined __x86_64__
 #pragma comment(lib, "detours.x64.lib")
 #elif defined _M_IX86 || defined __i386__
-#pragma comment(lib, "detours.x86.lib")
+#error "32-bit not supported yet."
 #endif
 
 using Microsoft::WRL::ComPtr;
