@@ -76,10 +76,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\deps\detours\detours.x86.lib">
+    <Library Include="..\deps\detours\detours.x64.lib">
       <Filter>资源文件</Filter>
     </Library>
-    <Library Include="..\deps\detours\detours.x64.lib">
+    <Library Include="..\deps\detours\detours.x86.lib">
       <Filter>资源文件</Filter>
     </Library>
   </ItemGroup>
